@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Function
+comment0.text=\r\n\ fucntional\ interface\ to\ pass\ custom\ interact\ methods\ into\ terminals\ (rather\ than\ making\ terminal\ sub-classes)\r\n
+comment1.params=game\ line
+comment1.target=void\ function(Game,\ int)
+comment1.text=\r\n\ abstract\ function\ that\ will\ take\ in\ the\ line\ the\ terminal\ is\ on\ and\ the\ world\r\n
+numComments=2

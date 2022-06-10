@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Vision
+comment0.text=\r\n\ Vision\ is\ an\ image\ that\ will\ sit\ over\ the\ map\ constricting\ the\ players\ vision\r\n\ Consists\ of\ an\ image\ of\ a\ transparanet\ circle\ fading\ at\ the\ edges\ and\ black\ rectangles\ created\ based\ of\ the\ players\ position\ to\ fill\ the\ rest\ of\ the\ map\r\n
+comment1.params=
+comment1.target=Vision()
+comment1.text=\r\n\ Constuctor\ sets\ instance\ variables\ and\ calles\ super-class\ constructor\r\n
+comment2.params=x\ y
+comment2.target=void\ setVision(int,\ int)
+comment2.text=\r\n\ sets\ vision;\ starts\ with\ blank\ image,\ draws\ the\ transparent\ circle\ (which\ is\ actuly\ a\ square\ as\ the\ corners\ are\ black)\r\n\ then\ draws\ 4\ rectangles\ to\ fill\ the\ rest\ of\ the\ map\ as\ black\r\n
+numComments=3

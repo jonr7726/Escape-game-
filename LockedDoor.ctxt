@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LockedDoor
+comment0.text=\r\n\ LockedDoor\ can\ only\ be\ unlocked\ with\ relative\ terminal\r\n
+comment1.params=x\ y\ connections\ line\ world
+comment1.target=LockedDoor(int,\ int,\ boolean[],\ int,\ Game)
+comment1.text=\r\n\ contructor\ will\ call\ super\ construcotr\ and\ set\ line\ and\ images\r\n
+comment2.params=
+comment2.target=void\ interact()
+comment2.text=\r\n\ will\ prevent\ opening\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ will\ prevent\ closing\r\n
+numComments=4

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Passage
+comment1.params=x\ y
+comment1.target=Passage(int,\ int)
+comment2.params=
+comment2.target=void\ interact()
+numComments=3

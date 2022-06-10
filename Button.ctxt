@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ Button\ is\ a\ text\ that\ implements\ hoverable\ and\ clickable\r\n\ therefore\ it\ will\ change\ its\ image\ when\ it\ is\ hovered\ over\ to\ be\ white\ instead\ of\ green\r\n\ and\ it\ will\ have\ a\ function\ that\ is\ activated\ once\ clicked\r\n\ function\ is\ given\ with\ functional\ interface\r\n
+comment1.params=x\ y\ string\ size\ fore\ back\ foreHover\ backHover\ border\ borderSize\ click
+comment1.target=Button(int,\ int,\ java.lang.String,\ int,\ greenfoot.Color,\ greenfoot.Color,\ greenfoot.Color,\ greenfoot.Color,\ greenfoot.Color,\ int,\ Clickable)
+comment1.text=\r\n\ constructor\ creates\ custom\ button\ given\ a\ position,\ string,\ size,\ colors\ for\ text\ and\ background\ for\ its\ hover,\ non\ hover\ and\ border,\ offset\ of\ border\ and\ a\ fucntion\ once\ clicked\r\n
+comment2.params=x\ y\ string\ click
+comment2.target=Button(int,\ int,\ java.lang.String,\ Clickable)
+comment2.text=\r\n\ calls\ constructor\ above\ with\ inputted\ text\ position\ and\ function\r\n\ default\ button\ is\:\ gren\ with\ dark\ green\ border\ and\ is\ white\ when\ hovered;\ border\ offset\ is\ 2\ pixels\r\n
+comment3.params=
+comment3.target=void\ onHover()
+comment3.text=\r\n\ called\ when\ hovered\ over\r\n\ sets\ image\ to\ hoverImage\r\n
+comment4.params=
+comment4.target=void\ onMove()
+comment4.text=\r\n\ called\ when\ mouse\ moved\ off\r\n\ sets\ image\ to\ regular\ image\r\n
+comment5.params=
+comment5.target=boolean\ hover()
+comment5.text=\r\n\ returns\ if\ currently\ hovered\ over\r\n
+comment6.params=w\ b
+comment6.target=void\ onClick(Renderer,\ int)
+comment6.text=\r\n\ called\ when\ clicked\r\n\ runs\ function\r\n
+numComments=7

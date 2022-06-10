@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AlienObject
+comment0.text=\r\n\ Alien\ tile\ to\ be\ used\ with\ map\ editor\ -has\ no\ function\ other\ than\ visual\r\n
+comment1.params=x\ y
+comment1.target=AlienObject(int,\ int)
+comment1.text=\r\n\ constrcutor\ sets\ image\ and\ calls\ super\ class\ constructor\r\n
+comment2.params=
+comment2.target=void\ interact()
+comment2.text=\r\n\ no\ function\r\n
+numComments=3

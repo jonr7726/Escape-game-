@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=VentDoor
+comment0.text=\r\n\ Similar\ to\ door,\ connects\ to\ vent\r\n
+comment1.params=x\ y\ connections\ world
+comment1.target=VentDoor(int,\ int,\ boolean[],\ Game)
+comment1.text=\r\n\ constructor\ sets\ image\ using\ text\ types\ method\r\n
+numComments=2

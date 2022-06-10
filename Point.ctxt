@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Point
+comment0.text=\r\n\ Point\ contains\ x\ and\ y\ position\r\n\ extends\ Displayable\ so\ it\ can\ be\ added\ to\ world\ for\ visualization\ (used\ in\ development)\r\n
+comment1.params=x\ y
+comment1.target=Point(double,\ double)
+comment1.text=\r\n\ Constructor\ passes\ to\ other\ constructor\ with\ default\ image\ of\ dot\r\n
+comment2.params=x\ y\ image
+comment2.target=Point(double,\ double,\ greenfoot.GreenfootImage)
+comment2.text=\r\n\ Constructor\ initilizes\ instance\ variables\r\n
+numComments=3

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Tile
+comment0.text=\r\n\ cell\ in\ the\ grid\ of\ the\ map\r\n\ super\ class\ to\ all\ cells\r\n\ cub-classes\ must\ define\ interact\ method\ (for\ when\ player\ interacts)\r\n
+comment1.params=
+comment1.target=void\ interact()
+comment2.params=x\ y\ c\ connections\ visibility\ isPassable
+comment2.target=Tile(int,\ int,\ char,\ boolean[],\ boolean,\ boolean)
+comment3.params=textTypes\ fore\ back
+comment3.target=void\ buildObject(java.lang.String[][],\ greenfoot.Color,\ greenfoot.Color)
+comment4.params=text
+comment4.target=java.lang.String[]\ buildText(java.lang.String)
+comment5.params=textTypes
+comment5.target=java.lang.String\ selectImage(java.lang.String[][])
+comment6.params=textTypes
+comment6.target=java.lang.String\ buildConnections(java.lang.String[][])
+comment7.params=
+comment7.target=boolean[]\ getConnections()
+comment8.params=
+comment8.target=char\ character()
+numComments=9

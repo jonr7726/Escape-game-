@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Line
+comment0.text=\r\n\ line\ of\ 2\ points\ and\ a\ colour\ that\ can\ be\ drawn\ to\ screen\r\n
+comment1.params=a\ b\ c
+comment1.target=Line(Point,\ Point,\ greenfoot.Color)
+comment1.text=\r\n\ constructor\ takes\ 2\ points\ and\ a\ colour\ and\ makes\ a\ line\ to\ be\ drawn\ to\ screen\r\n
+numComments=2

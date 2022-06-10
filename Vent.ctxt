@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Vent
+comment1.params=x\ y\ connections
+comment1.target=Vent(int,\ int,\ boolean[])
+comment2.params=
+comment2.target=void\ interact()
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Clickable
+comment0.text=\r\n\ Functional\ interface\ for\ something\ that\ can\ be\ clicked\ with\ a\ mouse\ and\ have\ certain\ functionality\ (used\ only\ in\ buttons\ however\ could\ be\ implemented\ in\ toher\ places\ in\ future)\r\n
+comment1.params=world\ mouseButton
+comment1.target=void\ onClick(Renderer,\ int)
+comment1.text=\r\n\ abstract\ function\ called\ by\ a\ mouse\ manager\ class,\ takes\ in\ current\ renderer\ and\ mouseButton\ clicked\ with\r\n
+numComments=2

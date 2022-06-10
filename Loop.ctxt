@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Loop
+comment0.text=\r\n\ Loop\ thread\ will\ call\ SceneManager\ loop()\ and\ thus\ Renderer\ loop()\r\n\ needed\ so\ that\ greenfoot\ can\ update\ MouseInfo\r\n
+comment1.params=fps\ world
+comment1.target=Loop(int,\ SceneManager)
+comment1.text=\r\n\ constructor\ initilizes\ instance\ variables\ \r\n
+comment2.params=fps
+comment2.target=void\ setFPS(int)
+comment2.text=\r\n\ sets\ intended\ frames\ per\ second\r\n\ update\ intended\ deltaTime\r\n
+comment3.params=
+comment3.target=int\ getFPS()
+comment3.text=\r\n\ returns\ fps\r\n
+comment4.params=
+comment4.target=void\ run()
+comment4.text=\r\n\ called\ by\ Thread\ class\ once\ when\ start()\ called\r\n\ will\ call\ scenes\ loop\ and\ if\ it\ returns\ true\ ends\ the\ excecution\r\n\ if\ tab\ key\ pressed\ will\ end\ game\ (used\ in\ development\ to\ stop\ thread\ running\ when\ errors\ occur)\r\n\ regulates\ loop\ time\ to\ intended\ delta\ time\ to\ achieve\ constant\ fps\r\n
+comment5.params=t
+comment5.target=void\ sleep(int)
+comment5.text=\r\n\ handles\ pauses\ in\ excecution\r\n\ (used\ in\ development)\r\n
+numComments=6

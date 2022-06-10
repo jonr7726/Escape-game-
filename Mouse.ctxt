@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Mouse
+comment0.text=\r\n\ Mouse\ to\ monitor\ hoverables\ and\ clickables\ (right\ now\ only\ buttons)\r\n
+comment1.params=world
+comment1.target=Mouse(Renderer)
+comment1.text=\r\n\ constructor\ sets\ world\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ act\ monitors\ all\ hoverables\ and\ clickables\ in\ world\r\n\ if\ mouse\ moved\ off\ hovered\ calls\ onMove\r\n\ if\ mouse\ moved\ on\ hovered\ calls\ onHover\r\n\ if\ mouse\ clicks\ clickable\ calls\ clicked\ passing\ world\ and\ mousebutton\ used\r\n
+numComments=3

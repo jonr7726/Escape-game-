@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Doors
+comment0.text=\r\n\ Super\ class\ for\ all\ door\ classes\r\n\ features\ opend\ and\ close\ functionality,\ interact\ will\ open\ door,\ act\ will\ run\ a\ timer\ to\ close\ the\ door\ if\ nothing\ is\ on\ it\r\n
+comment1.params=x\ y\ c\ connections\ world
+comment1.target=Doors(int,\ int,\ char,\ boolean[],\ Game)
+comment1.text=\r\n\ constructor\ will\ call\ super\ constructor\r\n
+comment2.params=
+comment2.target=void\ open()
+comment2.text=\r\n\ opens\ door,\ plays\ sound\r\n
+comment3.params=
+comment3.target=void\ close()
+comment3.text=\r\n\ closes\ door\r\n
+comment4.params=
+comment4.target=void\ interact()
+comment4.text=\r\n\ if\ door\ is\ closed\ open\ door\r\n
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\r\n\ if\ door\ is\ open\ run\ timer\ to\ close\ door\ if\ nothing\ is\ blocking\ it\r\n
+comment6.params=
+comment6.target=boolean\ checkBlocked()
+comment6.text=\r\n\ returns\ if\ player\ is\ in\ the\ way\ of\ the\ door\r\n
+numComments=7

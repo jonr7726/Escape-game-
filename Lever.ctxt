@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Lever
+comment0.text=\r\n\ Lever\ creates\ image\ from\ textType\ method\ and\ also\ prints\ a\ lever\ over\ it\ that\ can\ move\r\n\ interacting\ will\ increase\ timer\ and\ switch\ lever\r\n
+comment1.params=x\ y\ connections\ world
+comment1.target=Lever(int,\ int,\ boolean[],\ Game)
+comment1.text=\r\n\ constructor\ creates\ image\ with\ texxttypes\ and\ then\ draws\ lever\ over\ the\ top\ (cutting\ out\ sides\ to\ sclae\ correctly)\r\n
+comment2.params=
+comment2.target=void\ interact()
+comment2.text=\r\n\ interact\ will\ play\ sound,\ switch\ lever\ and\ add\ timer\ to\ timer\ (if\ not\ alreaady\ activated)\r\n
+numComments=3

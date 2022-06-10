@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Text
+comment1.params=x\ y\ string\ size\ fore\ back
+comment1.target=Text(int,\ int,\ java.lang.String,\ int,\ greenfoot.Color,\ greenfoot.Color)
+comment2.params=x\ y\ string\ size\ fore\ back\ border\ borderSize
+comment2.target=Text(int,\ int,\ java.lang.String,\ int,\ greenfoot.Color,\ greenfoot.Color,\ greenfoot.Color,\ int)
+comment3.params=
+comment3.target=void\ createImage()
+comment4.params=string
+comment4.target=void\ updateText(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getText()
+comment6.params=string\ fore\ back
+comment6.target=greenfoot.GreenfootImage\ createText(java.lang.String,\ greenfoot.Color,\ greenfoot.Color)
+comment7.params=string\ fore\ back
+comment7.target=greenfoot.GreenfootImage\ createText(java.lang.String[],\ greenfoot.Color,\ greenfoot.Color)
+numComments=8

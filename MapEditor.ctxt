@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MapEditor
+comment0.text=\r\n\ Map\ editor\ class\ indended\ mostly\ for\ development\ of\ maps\r\n
+comment1.params=scene
+comment1.target=MapEditor(SceneManager)
+comment1.text=\r\n\ constructor\ sets\ blank\ grid,\ calls\ create\ world,\ creates\ filename\ to\ be\ added\ later\ and\ sets\ instance\ variables\r\n
+comment2.params=
+comment2.target=void\ loop()
+comment2.text=\r\n\ loop\ will\ monitor\ mouse\r\n
+comment3.params=c\ i\ ii
+comment3.target=void\ updateWorld(char,\ int,\ int)
+comment3.text=\r\n\ will\ change\ tile\ at\ index\ relative\ to\ symbol\r\n
+comment4.params=
+comment4.target=void\ createWorld()
+comment4.text=\r\n\ creates\ ;ines\ for\ grid\r\n
+comment5.params=
+comment5.target=void\ compileData()
+comment5.text=\r\n\ will\ compile\ data\ for\ file\r\n
+comment6.params=o\ i\ ii
+comment6.target=void\ changeTile(Tile,\ int,\ int)
+comment6.text=\r\n\ change\ tile\ at\ a\ specifiic\ location\r\n
+comment7.params=
+comment7.target=void\ saveAndExit()
+comment7.text=\r\n\ compiles\ data\ and\ adds\ filename\ to\ be\ visible\r\n
+numComments=8

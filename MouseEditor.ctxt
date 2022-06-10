@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MouseEditor
+comment0.text=\r\n\ Special\ mouse\ monitor\ class\ for\ map\ editor\r\n\ used\ as\ map\ editor\ is\ more\ dependent\ on\ the\ mouse\ than\ anywhere\ else\ in\ the\ code\r\n
+comment1.params=world
+comment1.target=MouseEditor(MapEditor)
+comment1.text=\r\n\ sets\ instance\ variables\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ if\ making\ name\ call\ that\ method,\ otherwise\ check\ set\ selected\ tile\ to\ mouse\ position,\r\n\ if\ mouse\ ledt\ clicked\ set\ grid\ under\ to\ selected\ tile\r\n\ if\ right\ click\ set\ selected\ tile\ to\ grid\ under\r\n\ if\ middle\ click\ clear\ tile\ under\r\n\ q\ and\ e\ cycle\ selected\ object\r\n\ escape\ calls\ making\ file\ name\r\n
+comment3.params=c\ mouseX\ mouseY
+comment3.target=void\ findSelected(char,\ int,\ int)
+comment3.text=\r\n\ changes\ seleced\ given\ symbol\ and\ mouse\ position\r\n
+comment4.params=selected
+comment4.target=void\ changeSelected(Tile)
+comment4.text=\r\n\ changes\ selected\ given\ a\ tile\r\n
+comment5.params=
+comment5.target=void\ createName()
+comment5.text=\r\n\ enter\ send\ to\ file,\r\n\ letter\ will\ add\ to\ name\r\n\ backspace\ will\ remove\ from\ name\r\n\ excape\ returns\ to\ making\ map\r\n
+numComments=6

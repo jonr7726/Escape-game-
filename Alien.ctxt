@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Alien
+comment0.text=\r\n\ Alien\ based\ of\ state\ machine\ model;\ can\ be\ either\ walking\ to\ a\ random\ position,\ idleing\ in\ that\ position,\ or\ hunting\ player\ once\ spotted\r\n\ Will\ ray\ cast\ to\ player\ to\ check\ if\ it\ is\ spotted\r\n\ will\ use\ Pathfinding\ to\ move\ to\ random\ position\ in\ map\ (walk\ state)\ or\ player\ position\ (spotted\ state)\r\n
+numComments=1

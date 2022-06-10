@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Blank
+comment0.text=\r\n\ Blank\ tile\ with\ nothing\ on\ it\r\n\ symbol\ is\ '_'\r\n
+comment1.params=x\ y
+comment1.target=Blank(int,\ int)
+comment1.text=\r\n\ calls\ superclass\ constructor\r\n
+comment2.params=
+comment2.target=void\ interact()
+comment2.text=\r\n\ interact\ does\ nothing\r\n
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Door
+comment0.text=\r\n\ standard\ door\ that\ connects\ to\ walls\r\n
+comment1.params=x\ y\ connections\ world
+comment1.target=Door(int,\ int,\ boolean[],\ Game)
+comment1.text=\r\n\ Constructor\ calls\ super\ constructor,\ sets\ open\ and\ closed\ image\r\n
+numComments=2

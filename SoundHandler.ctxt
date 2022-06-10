@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SoundHandler
+comment0.text=\r\n\ manages\ all\ sound\ in\ game\r\n
+comment1.params=
+comment1.target=SoundHandler()
+comment1.text=\r\n\ constructor,\ initilizes\ instance\ variables\r\n
+comment2.params=
+comment2.target=void\ stopAll()
+comment2.text=\r\n\ stops\ all\ currently\ playing\ sounds\ in\ list\ and\ clears\ list\r\n
+comment3.params=sound
+comment3.target=void\ stop(greenfoot.GreenfootSound)
+comment3.text=\r\n\ stop\ a\ specified\ sound\ in\ the\ list\r\n
+comment4.params=sound\ loop\ cut\ volume
+comment4.target=void\ play(greenfoot.GreenfootSound,\ boolean,\ boolean,\ int)
+comment4.text=\r\n\ play\ a\ sound,\ can\ specify\ playing\ in\ a\ loop\ and/or\ cutting\ other\ of\ the\ same\ sounds\ before\ playing\r\n\ sound\ is\ the\ sound\ to\ play,\ loop\ is\ whether\ to\ loop\ the\ sound\ forever,\ cut\ is\ whether\ to\ stop\ all\ other\ sounds\ of\ that\ type\ to\ play\ and\ volume\ is\ the\ loudness\r\n
+comment5.params=sound\ loop\ cut
+comment5.target=void\ play(greenfoot.GreenfootSound,\ boolean,\ boolean)
+comment5.text=\r\n\ default\ variables\ for\ play\ method\:\ ie\ volume\ at\ 100\r\n
+comment6.params=sound\ loop\ cut\ emmiter\ listener\ radius
+comment6.target=void\ play(greenfoot.GreenfootSound,\ boolean,\ boolean,\ Point,\ Point,\ int)
+comment6.text=\r\n\ alternate\ play\ method\ that\ has\ the\ sound\ cut\ off\ based\ on\ distance\ from\ the\ player\r\n\ will\ call\ original\ play\ method\ with\ generated\ volume\r\n
+numComments=7

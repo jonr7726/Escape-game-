@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=RayCast
+comment0.text=\r\n\ RayCast\ is\ used\ by\ alien\ to\ find\ the\ closest\ intercept\ of\ the\ line\ of\ sight\ between\ the\ alien\ and\ the\ player\ (to\ know\ if\ the\ alien\ can\ see\ the\ player)\r\n
+comment1.params=pointFrom\ pointTo\ grid
+comment1.target=RayCast(Point,\ Point,\ Tile[][])
+comment2.params=
+comment2.target=Point\ getIntercept()
+comment2.text=\r\n\ returns\ intercept\r\n
+comment3.params=a\ b
+comment3.target=double\ getDistance(Point,\ Point)
+comment3.text=\r\n\ returns\ ratio\ of\ distance\ between\ 2\ points\ (ratio\ as\ i\ do\ not\ square\ root\ to\ save\ time,\ however\ this\ does\ not\ matter\ as\ i\ only\ need\ to\ compare\ distances)\r\n
+comment4.params=a\ b
+comment4.target=Point\ getGradient(Point,\ Point)
+comment4.text=\r\n\ returns\ gradient\ given\ 2\ points\ (gradient\ is\ point\ x\ represents\ run,\ y\ represent\ rise)\r\n
+comment5.params=x\ y
+comment5.target=boolean\ findSquareBelow(int,\ int)
+comment5.text=\r\n\ searches\ 1\ pixel\ in\ each\ direction\ of\ given\ point\ to\ see\ if\ the\ tile\ prevents\ visibility\r\n\ returns\ true\ if\ line\ of\ sight\ is\ therefore\ blocked\r\n\ (search\ in\ each\ direction\ as\ the\ point\ is\ a\ x\ or\ y\ intercept\ meaning\ it\ intersects\ either\ 2\ or\ 4\ Tile\ and\ each\ of\ these\ must\ be\ checked\ for\ accuracy)\r\n
+comment6.params=
+comment6.target=Point\ cast()
+comment6.text=\r\n\ ray\ cast\ to\ from\ one\ point\ to\ another\r\n\ does\ this\ by\ finding\ each\ x\ and\ y\ intercept\ (being\ the\ intersection\ between\ 2\ Tile)\ if\ this\ intercept\ is\ adjacent\ to\ a\ object\ that\ blocks\ visibility\ then\ save\ that\ point\ as\ the\ furthest\ x/y\ intercept\r\n\ will\ then\ return\ whichever\ is\ closer\ (fartherst\ x\ intercept\ or\ fartherst\ y\ intercept)\r\n
+numComments=7

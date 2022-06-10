@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Queue
+comment0.text=\r\n\ Generic\ queue\ class,\ can\ queue\ and\ dequeue\ objects,\ dequeue\ will\ return\ the\ fist\ object\ queued\ (rather\ than\ the\ most\ recent)\r\n
+comment1.params=
+comment1.target=Queue()
+comment1.text=\r\n\ constructor\ initilizes\ instance\ variables\r\n
+comment2.params=objectStart
+comment2.target=Queue(java.lang.Object)
+comment2.text=\r\n\ constructor\ initilizes\ instance\ variables,\ also\ initilizes\ first\ queue\ object\r\n
+comment3.params=object
+comment3.target=void\ enqueue(java.lang.Object)
+comment3.text=\r\n\ adds\ obeject\ to\ queue\r\n
+comment4.params=
+comment4.target=java.lang.Object\ dequeue()
+comment4.text=\r\n\ returns\ the\ first\ object\ in\ queue\ and\ deletes\ it\r\n
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment5.text=\r\n\ returns\ if\ queue\ is\ empty\r\n
+comment6.params=
+comment6.target=void\ clear()
+comment6.text=\r\n\ clears\ queue\r\n
+numComments=7

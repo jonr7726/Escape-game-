@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SceneManager
+comment0.text=\r\n\ SceneManager\ will\ manage\ all\ Renderers\ maintaining\ their\ loop\ and\ calling\ load\ on\ starting\ their\ loop\r\n\ SceneManager's\ background\ image\ will\ be\ set\ to\ the\ active\ Renderer's\ image\r\n\ Allows\ for\ changing\ Renderers\r\n\ begins\ the\ Loop\ thread\r\n\ contains\ soundhandler\ to\ manage\ sounds\ between\ renderers\r\n
+comment1.params=
+comment1.target=SceneManager()
+comment1.text=\r\n\ constructor\ initilizes\ world\ and\ sets\ instance\ variables\ above\r\n
+comment2.params=
+comment2.target=void\ started()
+comment2.text=\r\n\ called\ by\ greenfoot\ when\ game\ is\ begun,\ will\ start\ the\ Loop\ thread\ and\ calls\ world\ load\r\n
+comment3.params=
+comment3.target=boolean\ loop()
+comment3.text=\r\nloops\ active\ world,\ returns\ if\ game\ should\ end\r\n
+comment4.params=world
+comment4.target=void\ changeScene(Renderer)
+comment4.text=\r\n\ changes\ renderer\ and\ calls\ it's\ load\ method\r\n
+numComments=5

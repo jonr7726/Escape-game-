@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Terminal
+comment0.text=\r\n\ Terminal\ has\ a\ function\ when\ interacted\ with\ and\ a\ line\ (for\ opening\ locked\ doors)\r\n
+comment1.params=x\ y\ connections\ line\ world\ f
+comment1.target=Terminal(int,\ int,\ boolean[],\ int,\ Game,\ Function)
+comment1.text=\r\n\ constuctor\ creates\ image\ in\ alternative\ way\ (assuming\ it\ will\ be\ surrounded\ by\ 3\ walls\ adn\ will\ simply\ rotate)\r\n\ sets\ instance\ variables\ and\ calls\ super\ constructor\r\n
+comment2.params=
+comment2.target=void\ interact()
+comment2.text=\r\n\ will\ call\ function\r\n
+numComments=3

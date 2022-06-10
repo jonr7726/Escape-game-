@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Polygon
+comment1.params=x\ y\ points\ color
+comment1.target=Polygon(int,\ int,\ Point[],\ greenfoot.Color)
+comment2.params=x\ y\ points\ color
+comment2.target=Polygon(int,\ int,\ java.util.ArrayList,\ greenfoot.Color)
+comment3.params=image\ cut\ xOffset\ yOffset
+comment3.target=greenfoot.GreenfootImage\ cutOut(greenfoot.GreenfootImage,\ greenfoot.GreenfootImage,\ int,\ int)
+numComments=4

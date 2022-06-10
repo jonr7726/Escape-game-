@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Score
+comment0.text=\r\n\ sub-renderer\ fr\ displaying\ score\ after\ game\ is\ ended\r\n\ has\ animation\ +\ sound\ of\ scores\ appearing\ on\ screen\ \r\n\ will\ save\ as\ file\ the\ score\ of\ player\ and\ uses\ userInput\ to\ generate\ filename\r\n
+comment1.params=scene\ win\ levers\ doors\ time\ totalLevers
+comment1.target=Score(SceneManager,\ boolean,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ constructor\ will\ take\ in\ score\ data\ from\ game\r\n\ calls\ superclass\ constructor\r\n\ initilizes\ instance\ variables\ above\r\n\ calculates\ scores\ and\ passes\ them\ into\ createScore()\r\n
+comment2.params=levers\ doors\ time\ winBonus\ timeBonus
+comment2.target=void\ createScore(int,\ int,\ int,\ int,\ int)
+comment2.text=\r\n\ creates\ list\ of\ diaplayables\ to\ be\ added\ in\ animation\ sequence\r\n
+comment3.params=
+comment3.target=void\ submitScore()
+comment3.text=\r\n\ triggers\ create\ name\ sequence,\ displays\ file\ name,\ skips\ to\ end\ of\ animation\ if\ it\ has\ not\ completed\r\n
+comment4.params=winText
+comment4.target=void\ makeText(java.lang.String)
+comment4.text=\r\n\ checks\ if\ the\ username\ exisits\ within\ score\ files\r\n\ if\ will\ only\ update\ that\ score\ file\ if\ this\ score\ is\ higher\r\n\ if\ username\ does\ not\ exist\ will\ create\ file\r\n
+comment5.params=
+comment5.target=void\ createName()
+comment5.text=\r\n\ called\ when\ choosing\ username,\ if\ enter\ is\ pressed\ write\ score\ to\ file\r\n\ otherwise\ if\ key\ is\ pressed\ add\ it\ to\ the\ username\r\n\ backspace\ will\ remove\ last\ letter\r\n
+comment6.params=
+comment6.target=void\ loop()
+comment6.text=\r\n\ loop\ called\ by\ sceneManager\r\n\ if\ creating\ username\ it\ will\ run\ createName()\r\n\ otherwise\ it\ will\ continue\ the\ animation\ sequence\ and\ run\ mouse\ act\r\n
+numComments=7

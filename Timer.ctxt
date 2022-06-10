@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Timer
+comment0.text=\r\n\ Timer\ keeps\ track\ of\ time\ left\ until\ Alien\ finds\ player\r\n\ works\ off\ intended\ delta\ time\r\n\ time\ can\ be\ added\ with\ levers\r\n
+comment1.params=x\ y\ fps
+comment1.target=Timer(int,\ int,\ int)
+comment1.text=\r\n\ Creates\ text,\ initilizes\ instance\ variables\ above\r\n
+comment2.params=world
+comment2.target=void\ act(Game)
+comment2.text=\r\n\ called\ each\ loop,\ removes\ delta\ time\ from\ time\r\n\ if\ no\ time\ left;\ play\ both\ timer\ end\ sounds\ and\ begin\ perminant\ spotted\ from\ alien\r\n
+comment3.params=time
+comment3.target=void\ addTime(int)
+comment3.text=\r\n\ Adds\ time\ from\ lever\ only\ if\ the\ timer\ has\ not\ already\ ended\r\n
+comment4.params=
+comment4.target=int\ getTime()
+comment4.text=\r\n\ returns\ time\r\n
+numComments=5
